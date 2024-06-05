@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #e9ff99;
+    background-image:
+        radial-gradient(at 9% 89%, rgb(173, 194, 223) 0px, transparent 50%),
+        radial-gradient(at 72% 6%, rgb(226, 171, 198) 0px, transparent 50%),
+        radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 44% 9%, rgb(205, 214, 154) 0px, transparent 50%),
+        radial-gradient(at 10% 9%, rgb(86, 167, 167) 0px, transparent 50%);
+    min-height: 100vh;
+
+}
+.container {
+    display: block; /* Change display to block to use margin auto for centering */
+    font-weight: bold;
+    text-align: center; /* Center-align the text inside the box */
+    padding: 20px; /* Add padding to ensure there's space around the text */
+    color: #fff;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 15px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto; /* Center the container within its parent horizontally */
+    max-width: fit-content; /* Make the container width fit the content */
+}
+
+/*
+.container{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 15px;
+}
+*/
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap */
+    justify-content: center; /* Center horizontally */
+}
+
+.img-container a {
+    margin: 10px; /* Add some margin around each image */
+}
+
+.glass-container {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.glass-container a{
+    margin: 50px;
+}
